@@ -3,7 +3,7 @@ banner:
   enable : true
   bg_image : "images/face_recognition-bg.jpg"
   title : "AI Algorithm Design House"
-  content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  content : "TCIT為您的智能產品方案提供更快速與合適的核心AI演算法，並縮短產品上市時間、節省許多直接成本"
   button:
     enable : true
     label : "Discover Our Project"
@@ -12,14 +12,12 @@ banner:
 ############################# About #################################
 about:
   enable : true
-  title : "About Us"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id."
+  title : "關於我們"
+  description : "成立於2009年，台灣色彩與影像科技 (TCIT) 在影像、色彩與智能分析領域深耕數十年，同時提供創新科技結合新生活形態的應用，致力於滿足人類對於安全、便利跟快樂的需求。
+"
+  content : "我們以軟體研發、系統整合、網路應用服務為發展主軸，擅長影像分析技術、智慧辨識與創新服務，實際應用包含了人臉辨識與監控的系統整合、客層分析、數位看板廣告的觀眾效益量測、區域偵測以及即時門鎖監控系統！
+TCIT 同時具備了核心技術與專業整合能力，為合作廠商提供跨平台且全方位的解決方案，共同邁向嶄新的物聯網及 AI 智慧時代！
+"
   image : "images/wrapper-img.png"
 
 
@@ -27,15 +25,15 @@ about:
 portfolio:
   enable : true
   bg_image : "images/featue-bg.jpg"
-  title : "WE BELIEVE IN GREAT IDEAS"
+  title : "協助企業將AI與軟硬體結合並提升產品價值"
   content : "
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  -AI演算法設計 (AI Algorithm design)
 
 
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  -演算法函式庫開發 (Algorithm Library for specify platform)
 
 
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  -邊緣運算裝置推論最佳化 (Edge Inference optimization)
   "
   button:
     enable : true
