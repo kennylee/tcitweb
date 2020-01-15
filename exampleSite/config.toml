@@ -12,7 +12,8 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 # disable language
-disableLanguages = []
+disableLanguages = ["fr"]
+publishDir = "docs"
 
 
 ############################# Plugins ##############################
