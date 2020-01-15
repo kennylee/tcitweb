@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
-title = "Airspace | Creative Agency Hugo Template"
+baseURL = "http://www.tcit-tw.com/"
+title = "TCIT | 人臉辨識與智慧影像監控分析專家"
 theme = "airspace-hugo"
 # post pagination
 paginate = "4"
@@ -199,12 +199,98 @@ link = "#"
   # copyright
   copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
 
-  ################################ France Language ########################
-  [Languages.fr]
-  languageName = "Fr"
-  languageCode = "fr-fr"
-  contentDir = "content/french"
+  ################################ Chinese (Traditional) Language ########################
+  [Languages.zh]
+  languageName = "中文"
+  languageCode = "zh-TW"
+  contentDir = "content/tw"
   weight = 2
-  home = "Accueil"
+  home = "首頁"
   # copyright
   copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
+
+  
+  # main menu
+  [[Languages.zh.menu.main]]
+  name = "關於我們"
+  URL = "about"
+  weight = 1
+  
+  [[Languages.zh.menu.main]]
+  name = "成功案例"
+  URL = "project"
+  weight = 2
+  
+  [[Languages.zh.menu.main]]
+  name = "服務"
+  URL = "service"
+  weight = 3
+  
+  [[Languages.zh.menu.main]]
+  name = "最新消息"
+  URL = "blog"
+  weight = 4
+
+  [[Languages.zh.menu.main]]
+  weight = 5
+  name = "Pages"
+  hasChildren = true
+
+    [[Languages.zh.menu.main]]
+    parent = "Pages"
+    name = "FAQ"
+    URL = "faq"
+
+    [[Languages.zh.menu.main]]
+    parent = "Pages"
+    name = "Pricing"
+    URL = "pricing"
+    
+  [[Languages.zh.menu.main]]
+  name = "聯絡我們"
+  URL = "contact"
+  weight = 6
+
+  
+  # footer menu
+  [[Languages.zh.menu.footer]]
+  name = "關於我們"
+  URL = "../about"
+  weight = 1
+  
+  [[Languages.zh.menu.footer]]
+  name = "成功案例"
+  URL = "../project"
+  weight = 2
+  
+  [[Languages.zh.menu.footer]]
+  name = "Service"
+  URL = "../service"
+  weight = 3
+  
+  [[Languages.zh.menu.footer]]
+  name = "服務"
+  URL = "../pricing"
+  weight = 4
+  
+  [[Languages.zh.menu.footer]]
+  name = "FAQ"
+  URL = "../faq"
+  weight = 5
+  
+  [[Languages.zh.menu.footer]]
+  name = "聯絡我們"
+  URL = "../contact"
+  weight = 6
+ 
+
+  ################################ France Language ########################
+  #[Languages.fr]
+  #languageName = "Fr"
+  #languageCode = "fr-fr"
+  #contentDir = "content/french"
+  #weight = 2
+  #home = "Accueil"
+  # copyright
+  #copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
+
